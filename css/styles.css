@@ -1,0 +1,284 @@
+/*Links*/
+ a{
+  text-decoration: none;
+ }
+
+ .active {
+  text-decoration: underline;
+ }
+
+ header a{
+  color: #0A3641;
+  font-size: large;
+ }
+
+/* Home Page */
+body {
+  font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ .background {    
+    background-image: url(../images/beautiful-landscape-rainy-day.jpg) ;
+    background-size: cover;
+    min-height: 90vh;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    }
+   
+
+
+ .ctahome {
+   background-color: #e16017;
+   color: #fff;
+   font-size: x-large;
+   border-radius: 100px;
+   padding: 2% 5%;
+   text-decoration: solid;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+
+
+
+
+
+/* Nav */
+nav {
+  display: flex ;
+  align-items: center; 
+  justify-content: space-evenly;
+  padding: 10px;
+  text-align: center;
+}  
+
+
+
+
+
+ .resize {
+   width: 150px ;  
+ }
+
+ .banner {
+  width:100%;
+  min-height: 15vh;
+  padding-bottom: 10px;
+ }
+
+
+ /* Products */
+ .products {
+  width: 100%;
+  text-align: center;
+  background-color: #d9d9d9;
+  padding-bottom: 20px;
+  min-width: fit-content;
+  padding-top: 15px;
+ }
+
+ .products p {
+  padding-bottom: 10px;
+ }
+
+ .products img {
+  grid-column: -1/1;
+  width: relative;
+  height: 33vh;
+ }
+
+ .product-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0,1fr));
+  margin: auto;
+  grid-gap: 30px;
+  padding-bottom: 10px;
+  text-align: center;
+  justify-content: space-evenly;
+ }
+
+.cta-view {
+  background-color: #0A3641;
+  color: #fff;
+  background-position: relative;
+  padding: 10px 60px;
+  text-align: center;
+  text-decoration: solid;
+  font-size: large;
+}
+
+
+
+
+ /* Product Specific Page */
+.product-specific {
+  display: flex;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.product__image {
+  width: 100%;
+ }
+ 
+
+ .addtocartcta {
+   background-color: #0A3641;
+   color: #fff;
+   background-position: relative;
+   padding: 10px 80px;
+   text-align: center;
+   text-decoration: solid;
+   font-size: large;
+
+}
+
+.product-details {
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+
+
+
+/*Cart*/
+
+.cart {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  align-items: center;
+  min-height: 300px;
+}
+
+.yourcart {
+  width: 100%;
+  max-width: 1000px;
+  text-align: center;
+  background-color: #d9d9d9;
+  padding: 30px;
+  padding-top: 0%;
+ } 
+ 
+ .yourcart img {
+  height: 33vh; 
+ }
+
+ .yourcart h2 {
+  text-align: left;
+  padding-top: 15px;
+ }
+
+
+.cartinfo {
+  text-align: center;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: space-evenly;
+ }
+
+
+ .customerinfo {
+  align-items: center;
+  padding-bottom: 60px;
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+
+
+
+ .checkout {
+  background-color: #0A3641;
+  color: #fff;
+  padding: 30px 100px;
+  text-align: center;
+  text-decoration: solid;
+  margin: 40px 0;
+  
+ }
+
+.paydetails {
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-evenly;
+  margin: 80px 0;
+  width: 100%;
+  }
+
+
+
+/*Success*/
+
+.biglogo {
+  width: 50%;
+}
+
+.success-page {
+  text-align: center;
+  margin: auto;
+  display: block;
+}
+
+/* Contact & About */
+
+.textwall {
+  display: flex;
+  background-color: #d9d9d9;
+  padding: 20px 30px;
+  width: 20%;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: large;
+ }
+
+.textwall-list {
+display: flex;
+align-items: center;
+background-color: #d9d9d9;
+width: 70%;
+justify-content: space-evenly;
+position: absolute;
+top: 80%;
+left: 15%;
+}
+
+ /*Media*/
+
+ @media screen and (min-width: 1100px) {
+  nav {
+    margin-left: 20%;
+    margin-right: 20%;
+  }  
+  }
+
+ @media screen and (max-width: 750px) {
+  .product-list {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .cart {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .product-specific {
+    display: flex;
+    flex-direction: column;
+  }
+}
