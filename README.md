@@ -8,4 +8,4 @@ I altered the nav bar for better scalabilty.
 I changed the home page based off feedback that it should feature more content/tell more about the site.
 I altered the cart, combining three pages into one.
 
-Website link: https://fabulous-faun-a6eb7d.netlify.app
+Website link: https://dancing-moonbeam-2e73cd.netlify.app
