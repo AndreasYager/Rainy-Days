@@ -8,4 +8,4 @@ I altered the nav bar for better scalabilty.
 I changed the home page based off feedback that it should feature more content/tell more about the site.
 I altered the cart, combining three pages into one.
 
-Website link: https://prismatic-pudding-662b8e.netlify.app
+Website link: https://fancy-crepe-c3adbc.netlify.app
