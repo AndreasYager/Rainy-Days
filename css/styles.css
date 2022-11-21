@@ -119,10 +119,9 @@ header {
   justify-content: space-evenly;
  }
 
-.cta-view {
+.cta {
   background-color: #0A3641;
   color: #fff;
-  background-position: relative;
   padding: 10px 60px;
   text-align: center;
   text-decoration: solid;
@@ -140,25 +139,21 @@ header {
   padding-bottom: 10px;
 }
 
- 
-
- .addtocartcta {
-   background-color: #0A3641;
-   color: #fff;
-   background-position: relative;
-   padding: 10px 80px;
-   text-align: center;
-   text-decoration: solid;
-   font-size: large;
-
-}
 
 .product-details {
   display: block;
   text-align: center;
   margin: auto;
+  max-width: 400px;
 }
 
+.product-image {
+  width: 100%;
+  }
+  
+.product-image-width {
+    max-width: 400px;
+  }
 
 
 /*Cart*/
@@ -172,7 +167,6 @@ header {
 }
 
 .yourcart {
-  
   max-width: 1000px;
   text-align: center;
   background-color: #d9d9d9;
@@ -268,15 +262,15 @@ header {
  }
 
 .textbox-list {
-display: flex;
-align-items: center;
-background-color: #d9d9d9;
-width: 70%;
-justify-content: space-evenly;
-position: absolute;
-top: 80%;
-left: 15%;
-padding: 10px;
+  display: flex;
+  align-items: center;
+  background-color: #d9d9d9;
+  width: 70%;
+  justify-content: space-evenly;
+  position: absolute;
+  top: 80%;
+  left: 15%;
+  padding: 10px;
 }
 
  /*Media*/
@@ -301,12 +295,10 @@ padding: 10px;
   }
 
   .cart {
-  
     flex-direction: column;
   }
 
   .product-specific {
- 
     flex-direction: column;
   }
 
