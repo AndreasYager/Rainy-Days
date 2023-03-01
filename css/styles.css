@@ -22,13 +22,12 @@ body {
 /* Home Page */
 
  .backgroundhome {    
-    background-image: url(../images/beautiful-landscape-rainy-day2.jpg) ;
-    background-size: cover;
-    min-height: 50vh;
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: center;
-    position: absolute;
+      background-image: url(../images/beautiful-landscape-rainy-day2.jpg) ;
+      background-size: cover;
+      width: 100%;
+      min-height: 55vh;
+      object-fit: cover;
+      background-position: center;
     }
    
 
